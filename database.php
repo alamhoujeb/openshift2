@@ -1,6 +1,6 @@
 <?php
-$dbhost = getenv("MYSQL_SERVICE_HOST");
-$dbport = getenv("MYSQL_SERVICE_PORT");
+$dbhost = getenv("MYSQLSYMFONY_SERVICE_HOST");
+$dbport = getenv("MYSQLSYMFONY_SERVICE_PORT");
 $dbuser = getenv("databaseuser");
 $dbpwd = getenv("databasepassword");
 $dbname = getenv("databasename");
